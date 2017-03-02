@@ -13,6 +13,7 @@
 		E5F556731E68B2BA004DED84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F556711E68B2BA004DED84 /* Main.storyboard */; };
 		E5F556751E68B2BA004DED84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F556741E68B2BA004DED84 /* Assets.xcassets */; };
 		E5F556781E68B2BA004DED84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F556761E68B2BA004DED84 /* LaunchScreen.storyboard */; };
+		E5F556801E68B3A1004DED84 /* i.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5F5567F1E68B3A1004DED84 /* i.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5F556741E68B2BA004DED84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F556771E68B2BA004DED84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F556791E68B2BA004DED84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F5567F1E68B3A1004DED84 /* i.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = i.jpeg; path = ../../../Downloads/i.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		E5F556671E68B2BA004DED84 /* L2_1 */ = {
 			isa = PBXGroup;
 			children = (
+				E5F5567F1E68B3A1004DED84 /* i.jpeg */,
 				E5F5566B1E68B2BA004DED84 /* AppDelegate.h */,
 				E5F5566C1E68B2BA004DED84 /* AppDelegate.m */,
 				E5F5566E1E68B2BA004DED84 /* ViewController.h */,
@@ -139,6 +142,7 @@
 				E5F556781E68B2BA004DED84 /* LaunchScreen.storyboard in Resources */,
 				E5F556751E68B2BA004DED84 /* Assets.xcassets in Resources */,
 				E5F556731E68B2BA004DED84 /* Main.storyboard in Resources */,
+				E5F556801E68B3A1004DED84 /* i.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L2_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fynker-Development.L2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L2_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fynker-Development.L2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
